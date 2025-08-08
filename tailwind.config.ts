@@ -18,6 +18,11 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				brand: ["Inter", "Noto Sans Bengali", "Noto Sans Devanagari", "system-ui", "sans-serif"],
+				bengali: ["Noto Sans Bengali", "Inter", "system-ui", "sans-serif"],
+				devanagari: ["Noto Sans Devanagari", "Inter", "system-ui", "sans-serif"],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',

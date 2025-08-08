@@ -1,0 +1,38 @@
+{
+  "intents": {
+    "RegisterMe": {
+      "samples": {
+        "en": ["register me", "sign me up"],
+        "bn": ["নিবন্ধন করুন"],
+        "hi": ["रजिस्टर करो"],
+        "kok": ["Register chak"]
+      },
+      "responses": {
+        "en": "Let's get you registered. What's your name and village?",
+        "bn": "চলুন রেজিস্টার করি। আপনার নাম ও গ্রাম?",
+        "hi": "चलिए पंजीकरण करते हैं। आपका नाम और गाँव?",
+        "kok": "Register chak. Nwngwi name aro village? [Needs review]"
+      }
+    },
+    "GetPrice": {
+      "samples": {
+        "en": ["price today", "what is the price"],
+        "bn": ["দাম কত"],
+        "hi": ["दाम कितना"],
+        "kok": ["Rabara phai nai?"]
+      },
+      "responses": {
+        "en": "Fetching market price…",
+        "bn": "বাজার দাম আনা হচ্ছে…",
+        "hi": "बाजार मूल्य ला रहे हैं…",
+        "kok": "Bazar phai…"
+      }
+    }
+  },
+  "fallback": {
+    "en": "I can help you register, list rubber, get price, see offers, or request pickup.",
+    "bn": "আমি রেজিস্টার, রাবার তালিকাভুক্ত, দাম, অফার বা পিকআপে সাহায্য করতে পারি।",
+    "hi": "मैं रजिस्टर, रबर लिस्ट, दाम, ऑफ़र्स या पिकअप में मदद कर सकता हूँ।",
+    "kok": "Register, list, price, offers, pickup hamai. [Needs review]"
+  }
+}
